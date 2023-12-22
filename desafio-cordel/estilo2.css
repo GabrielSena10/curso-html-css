@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 16px;
+	margin: 0px;
+}
+body{
+	background-color: black;
+}
+s1{
+	position: relative;
+	height: 97vh;
+	background-color: white;
+	border: red solid 2px;
+}
+#s2{
+	position: absolute;
+	height: 80vh;
+	width: 80vw;
+	background-color: white;
+	border: blue solid 2px;
+	background-image: url('imagens/background001.jpg');
+	background-repeat: no-repeat;
+	background-position: 60% 50%;
+	background-size: cover;
+	background-attachment: fixe;
+}
